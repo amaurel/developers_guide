@@ -136,7 +136,7 @@ extra:
   #     link: https://blog.rook.io/
 
 nav:
-  - Home: index.md
+  - Home: index2.md
   - Getting started:
       - Guidelines: intro_guidelines.md
       - Getting started:

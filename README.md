@@ -75,7 +75,8 @@ docker run --rm -it \
    -p 8000:8000 \
    -v ${PWD}:/docs \
    -e MKDOCS_GIT_COMMITTERS_APIKEY=$GITHUB_TOKEN \
-   --entrypoint sh squidfunk/mkdocs-material
+   --entrypoint sh \
+   squidfunk/mkdocs-material
 
 pip install mike
 pip install mkdocs-git-committers-plugin-2
