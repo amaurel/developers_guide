@@ -66,10 +66,10 @@ plugins:
   - git-committers:
       repository: amaurel/developers_guide
       branch: main
+      docs_path: source/
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-#  - git-authors
 #  - exclude:
 #      glob:
 #        - README.md
@@ -136,7 +136,7 @@ extra:
   #     link: https://blog.rook.io/
 
 nav:
-  - Home: index2.md
+  - Home: index.md
   - Getting started:
       - Guidelines: intro_guidelines.md
       - Getting started:
