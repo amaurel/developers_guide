@@ -45,7 +45,7 @@ In this example, We will use the khan dataset (available on https://github.com/t
 
 <center><img src="../images/R_operator_example_DATASTEP.png" width=700></img></center>
 
-Note that the data step URL includes this pattern: `/w/WORKF+LOWID/ds/DATASTEPID`, where `WORKFLOWID` and `DATASTEPID` are __unique workflow and data step identifiers__, respectively. These identifiers will be used in the next step within RStudio to get data from this data step.
+Note that the data step URL includes this pattern: `/w/WORKFLOWID/ds/DATASTEPID`, where `WORKFLOWID` and `DATASTEPID` are __unique workflow and data step identifiers__, respectively. These identifiers will be used in the next step within RStudio to get data from this data step.
 
 ## Develop the operator locally {-}
 
