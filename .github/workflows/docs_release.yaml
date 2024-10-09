@@ -6,7 +6,6 @@ name: MKDocs release
 # events but only for the main branch
 on:
   push:
-    branches: [main]
     tags:
       - '[0-9]+.[0-9]+.[0-9]+'
 
