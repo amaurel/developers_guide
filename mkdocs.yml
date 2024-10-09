@@ -1,0 +1,166 @@
+site_name: Developers Guide
+docs_dir: source/
+site_url: "https://tercen.com"
+repo_url: https://github.com/amaurel/developers_guide
+edit_uri: edit/main/documentation/
+site_author: Tercen Authors
+site_description: "Tercen Developers Guide"
+use_directory_urls: true
+
+# copyright: |
+#   <a class="logo" href="/">
+#     <img src="https://rook.io/images/rook-logo-small.svg" alt="rook.io logo" />
+#   </a>
+#   <p>
+#     &#169; Rook Authors 2022. Documentation distributed under
+#     <a href="https://creativecommons.org/licenses/by/4.0">CC-BY-4.0</a>.
+#   </p>
+#   <p>
+#     &#169; 2022 The Linux Foundation. All rights reserved. The Linux Foundation has
+#     registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our
+#     <a href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a> page.
+#   </p>
+theme:
+  name: material
+  # custom_dir: .docs/overrides/
+  font: false
+  favicon: https://tercen.com/_assets/brand/fav.png
+  logo: https://tercen.com/_assets/brand/tercen/logo.png
+  # palette:
+  #   - scheme: "default"
+  #     primary: "rook-blue"
+  #     accent: "deep orange"
+  #     toggle:
+  #       icon: material/toggle-switch-off-outline
+  #       name: Switch to dark mode
+  #   - scheme: "slate"
+  #     primary: "rook-blue"
+  #     accent: "red"
+  #     toggle:
+  #       icon: material/toggle-switch
+  #       name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.tabs.link
+    - instant
+    - navigation.footer
+    - navigation.path
+    - navigation.sections
+#    - navigation.expand
+    - navigation.tabs
+#    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - tabs
+    - content.code.annotate
+    - content.code.copy
+extra_css:
+   - stylesheets/style.css
+plugins:
+  - search
+  - git-authors
+#  - exclude:
+#      glob:
+#        - README.md
+#        - "*.gotmpl"
+#        - "*.gotmpl.md"
+#  - awesome-pages
+  # - macros:
+  #     module_name: .docs/macros/includes/main
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
+      #js_files: []
+  # - redirects:
+  #     redirect_maps:
+  #       README.md: Getting-Started/intro.md
+#  - mike:
+#      # these fields are all optional; the defaults are as below...
+#      version_selector: true # set to false to leave out the version selector
+#      css_dir: css # the directory to put the version selector's CSS
+#      javascript_dir: js # the directory to put the version selector's JS
+#      canonical_version:
+#        null # the version for <link rel="canonical">; `null`
+#        # uses the version specified via `mike deploy`
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+extra:
+  version:
+    provider: mike
+    default: latest-release
+  # social:
+  #   - icon: fontawesome/brands/slack
+  #     link: https://slack.rook.io/
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/rook_io
+  #   - icon: fontawesome/solid/envelopes-bulk
+  #     link: "https://groups.google.com/forum/#!forum/rook-dev"
+  #   - icon: fontawesome/brands/medium
+  #     link: https://blog.rook.io/
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Guidelines: intro_guidelines.md
+      - Getting started:
+          - Core concepts: getting-started_core-concepts.md
+          - Setting up Tercen Studio:    getting-started_setup-tercen-studio.md
+      - R Operator development:
+          - General workflow: operator-dev_intro.md
+          - "Walkthrough example: R operator": operator-dev_create.md
+          - Deploying an R operator:   operator-dev_deploy.md
+          - Improving an operator:   operator-dev_improve.md
+      - Python Operator development:
+          - Getting familiar with Tercen Studio: operator-dev_python.md
+      - Advanced concepts:
+          - Continuous Integration Workflow: operator-dev_ci.md
+          - Installing an Operator:    operator-dev_installation.md
+          - Common patterns:    operator-dev_patterns.md
+      - Templates:
+          - Building a template: templates-apps_templates.md
+      - Apps:
+          - Building an app: templates-apps_apps.md
+      - Library:
+          - Tercen Library: library.md
+      - Best practices:
+          - Development guidelines: best-practices_guidelines.md
+          - Using tim:    best-practices_using-tim.md
+      - Troubleshooting:
+          - Common operator issues: troubleshooting_common-issues.md
+          - CI and Github Actions:   troubleshooting_ci.md
+      - Going forward:
+          - Next steps: going-forward_next-steps.md
+      - Appendix:
+          - Glossary: appendix_glossary.md
+          - Organisation setup:   appendix_organisation-setup.md
+          - Tercen Studio:   appendix_tercen-studio.md

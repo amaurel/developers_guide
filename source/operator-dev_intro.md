@@ -1,4 +1,3 @@
-# (PART\*) R Operator development {.unnumbered}
 
 # General workflow
 

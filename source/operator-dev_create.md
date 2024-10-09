@@ -10,7 +10,7 @@ The first step is to define our __input projection__ and __output relation__. In
 
 Here we want to perform the linear regression of the values __projected on the y axis__ against the values __projected on the x axis__, __per cell__. In this example, we will output only the intercept and the slope of the model, __per cell__. The operator model can be seen as follow: 
 
-<center><img src="./images/R_operator_example_MODEL.png" width=500></img></center>
+<center><img src="../images/R_operator_example_MODEL.png" width=500></img></center>
 
 ## Setting up the project {-}
 
@@ -20,7 +20,7 @@ Make sure that `tercen-studio` is properly set up and that both `Tercen` and `RS
 
 __Create a new GitHub repository__ with your own account based on the Tercen R operator template (https://github.com/tercen/templateR_operator). Click on the green button __Use this template__ in the Tercen template repository.
 
-<center><img src="./images/R_operator_example_SETUP2.png" width=1000></img></center>
+<center><img src="../images/R_operator_example_SETUP2.png" width=1000></img></center>
 
 Then you can create your own repository based on this template. Choose an explicit name (here, `lm_operator`).
 
@@ -43,7 +43,7 @@ You will be asked the URL of the repository (put the newly created one) and a na
 
 In this example, We will use the khan dataset (available on https://github.com/tercen/khan_data). First, we start Tercen locally (http://127.0.0.1:5402) and set up a pairwise projection of the measurement in different tissues. The data step of interest should look as follow:
 
-<center><img src="./images/R_operator_example_DATASTEP.png" width=700></img></center>
+<center><img src="../images/R_operator_example_DATASTEP.png" width=700></img></center>
 
 Note that the data step URL includes this pattern: `/w/WORKF+LOWID/ds/DATASTEPID`, where `WORKFLOWID` and `DATASTEPID` are __unique workflow and data step identifiers__, respectively. These identifiers will be used in the next step within RStudio to get data from this data step.
 

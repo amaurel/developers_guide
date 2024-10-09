@@ -1,4 +1,3 @@
-# (PART\*) Going forward {.unnumbered}
 
 # Next steps
 

@@ -1,4 +1,3 @@
-# (PART\*) Getting started {.unnumbered}
 
 # Core concepts
 

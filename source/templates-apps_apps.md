@@ -1,4 +1,3 @@
-# (PART\*) Apps {.unnumbered}
 
 # Building an app
 

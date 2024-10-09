@@ -13,13 +13,7 @@ description: "This is a developer's guide to Tercen"
 
 # Introduction {-}
 
-<center>
-```{r, echo=FALSE, out.width="100%"}
-knitr::include_graphics("./images/cover.png")
-```
-</center>
-
-\
+![Tercen](./images/cover.png){ align=center }
 
 This guide outlines how to design, develop and share __modules__ for __Tercen__.
 

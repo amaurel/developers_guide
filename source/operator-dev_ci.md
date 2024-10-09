@@ -1,4 +1,3 @@
-# (PART\*) Advanced concepts {.unnumbered}
 
 # Continuous Integration Workflow
 
