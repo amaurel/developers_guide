@@ -2,7 +2,7 @@ site_name: Developers Guide
 docs_dir: source/
 site_url: "https://tercen.com"
 repo_url: https://github.com/amaurel/developers_guide
-edit_uri: edit/main/documentation/
+edit_uri: edit/master/source/
 site_author: Tercen Authors
 site_description: "Tercen Developers Guide"
 use_directory_urls: true
@@ -62,7 +62,13 @@ extra_css:
    - stylesheets/style.css
 plugins:
   - search
-  - git-authors
+  - git-committers:
+      repository: amaurel/developers_guide
+      branch: master
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+#  - git-authors
 #  - exclude:
 #      glob:
 #        - README.md
@@ -80,14 +86,14 @@ plugins:
   # - redirects:
   #     redirect_maps:
   #       README.md: Getting-Started/intro.md
-#  - mike:
-#      # these fields are all optional; the defaults are as below...
-#      version_selector: true # set to false to leave out the version selector
-#      css_dir: css # the directory to put the version selector's CSS
-#      javascript_dir: js # the directory to put the version selector's JS
-#      canonical_version:
-#        null # the version for <link rel="canonical">; `null`
-#        # uses the version specified via `mike deploy`
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true # set to false to leave out the version selector
+      css_dir: css # the directory to put the version selector's CSS
+      javascript_dir: js # the directory to put the version selector's JS
+      canonical_version:
+        null # the version for <link rel="canonical">; `null`
+        # uses the version specified via `mike deploy`
 markdown_extensions:
   - admonition
   - attr_list
