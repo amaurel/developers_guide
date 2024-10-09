@@ -58,6 +58,7 @@ theme:
     - tabs
     - content.code.annotate
     - content.code.copy
+    - content.action.edit
 extra_css:
    - stylesheets/style.css
 plugins:
