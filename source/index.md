@@ -15,6 +15,8 @@ description: "This is a developer's guide to Tercen"
 
 ![Tercen](./images/cover.png){ align=center }
 
+hey
+
 This guide outlines how to design, develop and share __modules__ for __Tercen__.
 
 Tercen  promotes collaboration for data analysis. Not everyone can code or even 
