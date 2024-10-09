@@ -1,11 +1,14 @@
 site_name: Developers Guide
 docs_dir: source/
-site_url: "https://tercen.com"
+site_url: https://amaurel.github.io/developers_guide/
 repo_url: https://github.com/amaurel/developers_guide
+repo_name: amaurel/developers_guide
 edit_uri: edit/main/source/
 site_author: Tercen Authors
 site_description: "Tercen Developers Guide"
 use_directory_urls: true
+
+copyright: Copyright &copy; 2024 Tercen
 
 # copyright: |
 #   <a class="logo" href="/">
