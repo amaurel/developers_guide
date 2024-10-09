@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://tercen.com/latest/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/appendix_glossary/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/appendix_glossary/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/appendix_organisation-setup/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/appendix_organisation-setup/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/appendix_tercen-studio/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/appendix_tercen-studio/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/best-practices_guidelines/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/best-practices_guidelines/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/best-practices_using-tim/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/best-practices_using-tim/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/getting-started_core-concepts/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/getting-started_core-concepts/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/getting-started_setup-tercen-studio/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/getting-started_setup-tercen-studio/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/going-forward_next-steps/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/going-forward_next-steps/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/intro_guidelines/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/intro_guidelines/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/library/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/library/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_ci/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_ci/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_create/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_create/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_deploy/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_deploy/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_docker/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_docker/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_improve/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_improve/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_installation/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_installation/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_intro/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_intro/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_patterns/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_patterns/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_python/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_python/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/operator-dev_shiny/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/operator-dev_shiny/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/templates-apps_apps/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/templates-apps_apps/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/templates-apps_templates/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/templates-apps_templates/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/troubleshooting_ci/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/troubleshooting_ci/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
     <url>
-         <loc>https://tercen.com/latest/troubleshooting_common-issues/</loc>
+         <loc>https://amaurel.github.io/developers_guide/latest/troubleshooting_common-issues/</loc>
          <lastmod>2024-10-09</lastmod>
     </url>
 </urlset>
