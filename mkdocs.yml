@@ -2,7 +2,7 @@ site_name: Developers Guide
 docs_dir: source/
 site_url: "https://tercen.com"
 repo_url: https://github.com/amaurel/developers_guide
-edit_uri: edit/master/source/
+edit_uri: edit/main/source/
 site_author: Tercen Authors
 site_description: "Tercen Developers Guide"
 use_directory_urls: true
@@ -64,7 +64,7 @@ plugins:
   - search
   - git-committers:
       repository: amaurel/developers_guide
-      branch: master
+      branch: main
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
