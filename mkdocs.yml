@@ -1,47 +1,21 @@
 site_name: Developers Guide
-docs_dir: source/
+docs_dir: docs/
 site_url: https://amaurel.github.io/developers_guide/
 repo_url: https://github.com/amaurel/developers_guide
 repo_name: amaurel/developers_guide
-edit_uri: edit/main/source/
+edit_uri: edit/main/docs/
 site_author: Tercen Authors
 site_description: "Tercen Developers Guide"
 use_directory_urls: true
 
 copyright: Copyright &copy; 2024 Tercen
 
-# copyright: |
-#   <a class="logo" href="/">
-#     <img src="https://rook.io/images/rook-logo-small.svg" alt="rook.io logo" />
-#   </a>
-#   <p>
-#     &#169; Rook Authors 2022. Documentation distributed under
-#     <a href="https://creativecommons.org/licenses/by/4.0">CC-BY-4.0</a>.
-#   </p>
-#   <p>
-#     &#169; 2022 The Linux Foundation. All rights reserved. The Linux Foundation has
-#     registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our
-#     <a href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a> page.
-#   </p>
 theme:
   name: material
   # custom_dir: .docs/overrides/
   font: false
   favicon: https://tercen.com/_assets/brand/fav.png
-  logo: https://tercen.com/_assets/brand/tercen/logo.png
-  # palette:
-  #   - scheme: "default"
-  #     primary: "rook-blue"
-  #     accent: "deep orange"
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline
-  #       name: Switch to dark mode
-  #   - scheme: "slate"
-  #     primary: "rook-blue"
-  #     accent: "red"
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to light mode
+  logo: ./images/tercen-logo-sq.svg
   icon:
     repo: fontawesome/brands/github
   features:
@@ -70,7 +44,6 @@ plugins:
   - git-committers:
       repository: amaurel/developers_guide
       branch: main
-      docs_path: source/
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
@@ -128,16 +101,6 @@ markdown_extensions:
 extra:
   version:
     provider: mike
-    default: latest-release
-  # social:
-  #   - icon: fontawesome/brands/slack
-  #     link: https://slack.rook.io/
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/rook_io
-  #   - icon: fontawesome/solid/envelopes-bulk
-  #     link: "https://groups.google.com/forum/#!forum/rook-dev"
-  #   - icon: fontawesome/brands/medium
-  #     link: https://blog.rook.io/
 
 nav:
   - Home: index.md

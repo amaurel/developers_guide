@@ -27,4 +27,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: tercen/actions/mkdocs@main
         with:
+          set_default: "true"
           tag: ${GITHUB_REF##*/}

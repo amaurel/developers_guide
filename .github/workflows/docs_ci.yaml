@@ -29,5 +29,4 @@ jobs:
         fetch-depth: '0'
     - uses: tercen/actions/mkdocs@main
       with:
-        tag: latest
         committers_api_key: ${{ secrets.GITHUB_TOKEN }}
