@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+	 width="700px"
+	 height="700px"
+	 viewBox="0 0 7 7">
+	<g transform="translate(1.5 0)">
+		<g>
+			<rect x="1" y="0" fill="#0099FF" width="1" height="6" shape-rendering="crispEdges"/>
+			<rect x="1" y="1" fill="#00FFFF" width="1" height="5" shape-rendering="crispEdges"/>
+
+			<rect x="0" y="2" fill="#FF8200" width="4" height="1" shape-rendering="crispEdges"/>
+
+			<rect x="1" y="2" fill="#6D0000" width="1" height="4" shape-rendering="crispEdges"/>
+			<rect x="1" y="2" fill="#6D0000" width="3" height="1" shape-rendering="crispEdges"/>
+
+			<rect x="1" y="3" fill="#0000FF" width="1" height="3" shape-rendering="crispEdges"/>
+			<rect x="1" y="4" fill="#FFBF00" width="1" height="2" shape-rendering="crispEdges"/>
+			<rect x="1" y="5" fill="#99FF00" width="1" height="1" shape-rendering="crispEdges"/>
+			<rect x="2" y="6" fill="#FF0000" width="1" height="1" shape-rendering="crispEdges"/>
+
+			<rect x="2" y="2" fill="#66FF7F" width="2" height="1" shape-rendering="crispEdges"/>
+			<rect x="3" y="2" fill="#FF4F00" width="1" height="1" shape-rendering="crispEdges"/>
+		</g>
+	</g>
+</svg>
